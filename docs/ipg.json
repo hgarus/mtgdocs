@@ -84,11 +84,11 @@
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
-        "text" : [ "If the triggered ability is an enters-the-battlefield trigger of an Aura that affects only the enchanted permanent and causes a visible change to that permanent, resolve the ability immediately.\n\nIf the triggered ability is a delayed triggered ability that undoes a zone change (including token creation) caused by the spell or ability that created the delayed triggered ability, the opponent chooses whether to resolve the ability the next time a player would get priority or when a player would get priority at the start of the next phase.\n\nFor all other triggered abilities, if the ability was missed prior to the current phase in the previous turn, instruct the players to continue playing. If the triggered ability created an effect whose duration has already expired, instruct the players to continue playing.\n\nIf the triggered ability isn’t covered by the previous paragraphs, the opponent chooses whether the triggered ability is added to the stack. If it is, it’s inserted at the appropriate place on the stack if possible or on the bottom of the stack. No player may make choices involving objects that would not have been legal choices when the ability should have triggered. For example, if the ability instructs a player to sacrifice a creature, that player can't sacrifice a creature that wasn't on the battlefield when the ability should have triggered." ]
+        "text" : [ "If the triggered ability is an enters-the-battlefield trigger of an Aura that affects only the enchanted permanent and causes a visible change to that permanent, resolve the ability immediately.\n\nIf the triggered ability is a delayed triggered ability that undoes a zone change (including token creation) caused by the effect that created the delayed triggered ability, the opponent chooses whether to resolve the ability the next time a player would get priority or when a player would get priority at the start of the next phase. The new zone does not need to be the same as the one the card was originally moved from.\n\nFor all other triggered abilities, if the ability was missed prior to the current phase in the previous turn, instruct the players to continue playing. If the triggered ability created an effect whose duration has already expired, instruct the players to continue playing.\n\nIf the triggered ability isn’t covered by the previous paragraphs, the opponent chooses whether the triggered ability is added to the stack. If it is, it’s inserted at the appropriate place on the stack if possible or on the bottom of the stack. No player may make choices involving objects that would not have been legal choices when the ability should have triggered. For example, if the ability instructs a player to sacrifice a creature, that player can't sacrifice a creature that wasn't on the battlefield when the ability should have triggered." ]
       },
       "upgrade" : {
         "title" : "Upgrade",
-        "text" : [ "If the triggered ability is usually considered detrimental for the controlling player and they own the card responsible for the existence of the trigger, the penalty is a Warning. The current game state is not a factor in determining this, though symmetrical abilities (such as Howling Mine) may be considered usually detrimental or not depending on who is being affected" ]
+        "text" : [ "If the triggered ability is usually considered detrimental for the controlling player and they own the card responsible for the existence of the trigger, the penalty is a Warning. The current game state is not a factor in determining this, though symmetrical abilities (such as Howling Mine) may be considered usually detrimental or not depending on who is being affected." ]
       }
     }
   },
@@ -113,7 +113,7 @@
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
-        "text" : [ "Shuffle any previously unknown cards from a deck back into the random portion of the deck, then put any known cards back in their correct locations." ]
+        "text" : [ "If the cards were in the library, shuffle any previously unknown cards from a deck back into the random portion of the library, then put any previously known cards back in their correct locations." ]
       }
     }
   },
@@ -126,7 +126,7 @@
     "subsectionContents" : {
       "definition" : {
         "title" : "Definition",
-        "text" : [ "A player commits an error in the game that cannot be corrected by only publicly available information and does so without their opponent’s permission. This infraction only applies when a card whose identity is known to only one player is in a hidden set of cards both before and after the error.\n\nIf an additional card is seen but not added to the set, the infraction is Game Play Error — Looking at Extra Cards." ]
+        "text" : [ "A player commits an error in the game that cannot be corrected by only publicly available information. It is not a Hidden Card Error if the opponent acknowledges the action or controls the continuous effect modifying the game rule that was violated. This infraction only applies when a card whose identity is known to only one player is in a hidden set of cards both before and after the error.\n\nIf an additional card is seen but not added to the set, the infraction is Game Play Error — Looking at Extra Cards." ]
       },
       "examples" : {
         "title" : "Examples",
@@ -155,19 +155,19 @@
     "subsectionContents" : {
       "definition" : {
         "title" : "Definition",
-        "text" : [ "A player makes an error as part of the mulligan process. This infraction does not apply to errors made once pre-game procedures are complete. “Scrying” for more than one card after taking a mulligan is treated as a Hidden Card Error.\n\nTrivial process errors that provide no advantage, such as declaring an intent to mulligan early, are not an infraction." ]
+        "text" : [ "A player makes an error as part of the mulligan process. Once the mulligan process is complete and the game begins, any excess cards arising from an improper mulligan should be treated as Game Rule Violation — Hidden Card Error.\n\nTrivial process errors that provide no advantage, such as declaring an intent to mulligan early, are not an infraction." ]
       },
       "examples" : {
         "title" : "Examples",
-        "text" : [ "A. A player draws eight cards at the start of the game (instead of seven).\n\nB. A player draws seven cards at the start of the game (instead of six) after taking a mulligan.\n\nC. A player keeps their hand, scries, then mulligans again.\n\nD. A player chooses to not take a mulligan then takes a mulligan after seeing their opponent choose to take a mulligan." ]
+        "text" : [ "A. A player draws eight cards at the start of the game (instead of seven).\n\nB. A player chooses to not take a mulligan then takes a mulligan after seeing their opponent choose to take a mulligan." ]
       },
       "philosophy" : {
         "title" : "Philosophy",
-        "text" : [ "Errors prior to the beginning of the game have a less disruptive option—a forced mulligan—that is not available at any other point during the game. However, players should not be incentivized to sit on the infraction until mulligan procedures are completed so that they can ‘discover’ the error at a point where it becomes a Hidden Card Error if they believe that is to their advantage. To encourage the offending player to report their error as early as possible, they are given their choice of remedy before the game begins.\n\nIf a player looks at the top card of their library after taking a mulligan, it is assumed that they have chosen to keep their hand unless they make it very clear that they intend to mulligan again, either verbally before looking or by picking up multiple cards from the top of their library." ]
+        "text" : [ "Errors prior to the beginning of the game have a less disruptive option—a forced mulligan—that is not available at any other point during the game." ]
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
-        "text" : [ "If the player has too many cards in hand, they may choose to reveal their hand, and their opponent chooses a card from it to be shuffled back into the library. If more than one excess card was drawn (for example, eight cards drawn during a mulligan to 6) their opponent continues removing cards until the correct number has been reached.\n\nIf cards are not removed from the hand this way (either due to an error that didn't lead to too many cards, or by the player choosing not to reveal), that player takes an additional mulligan.\n\nPlayers may continue taking mulligans after the remedy has been completed." ]
+        "text" : [ "The player takes an additional mulligan." ]
       }
     }
   },
@@ -192,7 +192,7 @@
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
-        "text" : [ "First, consider a simple backup (see section 1.4).\n\nIf a simple backup is not sufficient and the infraction falls into one or more of the following categories, and only into those categories, perform the appropriate partial fix:\n\n• If a player forgot to untap one or more permanents at the start of their turn and it is still the same turn, untap them.\n\n• If a player made an illegal choice (including no choice where required) for a static ability generating a continuous effect still on the battlefield, that player makes a legal choice.\n\n• If a player failed to draw cards, discard cards, or return cards from their hand to another zone, that player does so.\n\n• If an object is in an incorrect zone either due to a required zone change being missed or due to being put into the wrong zone during a zone change, the exact object is still known to all players, and it can be moved with only minor disruption to the current state of the game, put the object in the correct zone.\n\n• If damage assignment order has not been declared, the appropriate player chooses that order.\n\nFor each of these fixes, a simple backup may be performed beforehand if it makes applying the fix smoother. Triggered abilities are generated from these partial fixes only if they would have occurred had the action been taken at the correct time.\n\nOtherwise, a full backup may be considered or the game state may be left as is. For most Game Play Errors not caught within a time that a player could reasonably be expected to notice, opponents receive a Game Play Error — Failure to Maintain Game State penalty. If the judge believes that both players were responsible for a Game Rule Violation, such as due to the existence of replacement effects or a player taking action based on another player’s instruction, both players receive a Game Play Error — Game Rule Violation. For example, if a player casts Path to Exile on an opponent’s creature and the opponent puts the creature into the graveyard, both players have committed this infraction." ]
+        "text" : [ "First, consider a simple backup (see section 1.4).\n\nIf a simple backup is not sufficient and the infraction falls into one or more of the following categories, and only into those categories, perform the appropriate partial fix:\n\n• If a player forgot to untap one or more permanents at the start of their turn and it is still the same turn, untap them.\n\n• If a player made an illegal choice (including no choice where required) for a static ability generating a continuous effect still on the battlefield, that player makes a legal choice.\n\n• If a player failed to draw cards, discard cards, or return cards from their hand to another zone, that player does so.\n\n• If an object is in an incorrect zone either due to a required zone change being missed or due to being put into the wrong zone during a zone change, the exact object is still known to all players, and it can be moved with only minor disruption to the current state of the game, put the object in the correct zone.\n\n• If damage assignment order has not been declared, the appropriate player chooses that order.\n\nFor each of these fixes, a simple backup may be performed beforehand if it makes applying the fix smoother. Triggered abilities are generated from these partial fixes only if they would have occurred had the action been taken at the correct time.\n\nOtherwise, a full backup may be considered or the game state may be left as is.\n\nFor most Game Play Errors not caught within a time that a player could reasonably be expected to notice, opponents receive a Game Play Error — Failure to Maintain Game State penalty. If the judge believes that both players were responsible for a Game Rule Violation, such as due to the opponent controlling the continuous effect modifying the rules of the game that led to the Game Rule Violation or a player taking action based on another player’s instruction, both players receive a Game Play Error — Game Rule Violation. For example, if a player casts Path to Exile on an opponent’s creature and the opponent puts the creature into the graveyard, both players have committed this infraction." ]
       }
     }
   },
@@ -221,7 +221,7 @@
     "title" : "3.1 Tournament Error — Tardiness",
     "url" : "http://blogs.magicjudges.org/rules/ipg3-1/",
     "text" : "",
-    "subsections" : [ "definition", "examples", "philosophy", "additional-remedy", "upgrade" ],
+    "subsections" : [ "definition", "examples", "philosophy", "additional-remedy", "upgrade", "downgrade" ],
     "penalty" : "Game Loss",
     "subsectionContents" : {
       "definition" : {
@@ -243,6 +243,10 @@
       "upgrade" : {
         "title" : "Upgrade",
         "text" : [ "A player not in their seat 10 minutes into the round will receive a Match Loss and will be dropped from the tournament unless they report to the Head Judge or Scorekeeper before the end of the round." ]
+      },
+      "downgrade" : {
+        "title" : "Downgrade",
+        "text" : [ "A player who arrives at their seat before 1 minute has elapsed in the round receives a Warning." ]
       }
     }
   },
@@ -280,7 +284,7 @@
     "subsectionContents" : {
       "definition" : {
         "title" : "Definition",
-        "text" : [ "A player takes longer than is reasonably required to complete game actions. If a judge believes a player is intentionally playing slowly to take advantage of a time limit, the infraction is Unsporting Conduct — Stalling.\n\nIt is also slow play if a player continues to execute a loop without being able to provide an exact number of iterations and the expected resulting game state." ]
+        "text" : [ "A player takes longer than is reasonably required to complete game actions. If a judge believes a player is intentionally playing slowly to take advantage of a time limit, the infraction is Unsporting Conduct — Stalling. It is also slow play if a player continues to execute a loop without being able to provide an exact number of iterations and the expected resulting game state." ]
       },
       "examples" : {
         "title" : "Examples",
@@ -313,7 +317,7 @@
       },
       "philosophy" : {
         "title" : "Philosophy",
-        "text" : [ "Decklists are used to ensure that decks are not altered in the course of a tournament. Judges and other tournament officials should be vigilant about reminding players before the tournament begins of the importance of submitting a legal decklist, and playing with a legal deck. A player normally receives a Game Loss if their decklist is altered after tournament play has begun.\n\nPenalties for decklist errors discovered outside the context of the match and its procedures (such as those discovered through decklist counting) are issued at the start of the next match unless the judge believes there is strong evidence the deck itself is illegal.\n\nAmbiguous or unclear names on a decklist may allow a player to manipulate the contents of their deck up until the point at which they are discovered. Truncated names of storyline characters on decklists (planeswalkers and other legendary permanents) are acceptable as long as they are the only representation of that character in the format and are treated as referring to that card, even if other cards begin with the same name.\n\nThe Head Judge may choose to not issue this penalty if they believe that what the player wrote on their decklist is obvious and unambiguous, even if it is not the full, accurate name of the card. In Limited tournaments, the Head Judge may choose not to issue this penalty for incorrectly marked basic land counts if they believe the correct land count is obvious. This should be determined solely by what is written on the decklist, and not based on intent or the actual contents of the deck; needing to check the deck for confirmation is a sign that the entry is not obvious." ]
+        "text" : [ "Decklists are used to ensure that decks are not altered in the course of a tournament. Judges and other tournament officials should be vigilant about reminding players before the tournament begins of the importance of submitting a legal decklist, and playing with a legal deck. A player normally receives a Game Loss if their decklist is altered after tournament play has begun.\n\nPenalties for decklist errors discovered outside the context of the match and its procedures (such as those discovered through decklist counting) are issued at the start of the next match unless the judge believes there is strong evidence the deck itself is illegal.\n\nAmbiguous or unclear names on a decklist may allow a player to manipulate the contents of their deck up until the point at which they are discovered. Truncated names of storyline characters on decklists (planeswalkers and other legendary permanents) are acceptable as long as they are the only representation of that character in the format and are treated as referring to that card, even if other cards begin with the same name.\n\nThe Head Judge may choose to not issue this penalty if they believe that what the player wrote on their decklist is obvious and unambiguous, even if not entirely accurate. In Limited tournaments, the Head Judge may choose not to issue this penalty for incorrectly marked basic land counts if they believe the correct land count is obvious. This should be determined solely by what is written on the decklist, and not based on intent or the actual contents of the deck; needing to check the deck for confirmation is a sign that the entry is not obvious." ]
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
@@ -330,7 +334,7 @@
     "subsectionContents" : {
       "definition" : {
         "title" : "Definition",
-        "text" : [ "The contents of a deck or sideboard do not match the decklist registered and the decklist represents what the player intended to play.\n\nIf there are extra cards stored with the sideboard that could conceivably be played in the player’s deck, they will be considered a part of the sideboard unless they are:\n\n• Promotional cards that have been handed out as part of the tournament.\n\n• Double-faced cards represented by checklist cards in the deck.\n\n• Double-faced cards being used to represent the back side of cards in the deck. These cards must not be sleeved in the same way as cards in the main deck and/or sideboard. Cards in different sleeves, tokens, and double-faced cards for which checklists are being used are ignored when determining deck (not sideboard) legality.\n\nIf a player is unable to locate cards (or identical equivalents) from their main deck, treat it as a Decklist Problem instead. If sideboard cards are missing, make a note of this, but issue no penalty." ]
+        "text" : [ "The contents of a deck or sideboard do not match the decklist registered and the decklist represents what the player intended to play.\n\nIf there are extra cards stored with the sideboard that could conceivably be played in the player’s deck, they will be considered a part of the sideboard unless they are:\n\n• Promotional cards that have been handed out as part of the tournament.\n\n• Double-faced cards represented by checklist cards in the deck.\n\n• Double-faced cards being used to represent the back side of cards in the deck. These cards must not be sleeved in the same way as cards in the main deck and/or sideboard.\n\nCards in different sleeves, tokens, and double-faced cards for which checklists are being used are ignored when determining deck (not sideboard) legality.\n\nIf a player is unable to locate cards (or identical equivalents) from their main deck, treat it as a Decklist Problem instead. If sideboard cards are missing, make a note of this, but issue no penalty." ]
       },
       "examples" : {
         "title" : "Examples",
@@ -338,15 +342,15 @@
       },
       "philosophy" : {
         "title" : "Philosophy",
-        "text" : [ "Players are expected to call attention to deck errors immediately, and not gain any potential advantage from having the cards in their deck.\n\nThe most common forms of deck error are failure to desideboard and having a card in the wrong deck. Both of these are difficult to gain advantage from without obvious cheating. Denying them the card that they would otherwise be working with is sufficient to compensate for the easily discovered situations. Duplicates of cards that begin in the main deck are more problematic, as they are not as easy to realize and catch, and thus mandate an upgraded penalty.\n\nA window in which the error is a Game Loss is necessary to discourage intentional abuse. Once that point has passed, the opponent agrees that the deck is valid. Judges should always be mindful of the abuse possibilities when investigating these infractions." ]
+        "text" : [ "Players are expected to call attention to deck errors immediately, and not gain any potential advantage from having the cards in their deck.\n\nThe most common forms of deck error are failure to desideboard and having a card in the wrong deck. Both of these are difficult to gain advantage from without obvious cheating. Allowing the opponent to choose which card they would otherwise be working with is sufficient to compensate for the easily discovered situations. Duplicates of cards that begin in the main deck are more problematic, as they are not as easy to realize and catch, and thus mandate an upgraded penalty.\n\nA window in which the error is a Game Loss is necessary to discourage intentional abuse of the minimum number of cards in the deck. Once that point has passed, the opponent agrees that the deck is valid. Judges should always be mindful of the abuse possibilities when investigating these infractions." ]
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
-        "text" : [ "Remove any incorrect cards from the deck, including any sideboard cards that could not yet legally have been added. Locate any cards missing from the deck and shuffle them into the randomized portion of the deck. If the missing card(s) are with the sideboard and it isn’t the first game, choose the ones to be shuffled into the deck at random from main deck cards in the sideboard. If the error is discovered during opening hands, instruct the player to mulligan. Otherwise, do not replace discovered erroneous cards in hands or other sets (such as a group of cards being scried or drawn).\n\nIf the missing card(s) were in a previous or current opponent’s deck, issue penalties to both players." ]
+        "text" : [ "Locate any cards missing from the deck and any incorrect cards in any game zone. The opponent chooses which of the missing cards replaces each incorrect card; any extras are shuffled into the random portion of the library. If more cards are being removed than added, prioritize ones not in the library first. If there are still additional cards not in the library that need replacing, they are replaced by random cards from the library. If the missing card(s) are with the sideboard and it isn’t the first game, choose the ones to be returned to the deck at random from main deck cards in the sideboard.\n\nIf the missing card(s) were in a previous or current opponent’s deck, issue penalties to both players." ]
       },
       "upgrade" : {
         "title" : "Upgrade",
-        "text" : [ "If the deck or sideboard is discovered to be incorrect while presented to the opponent for pre-game shuffling, and the missing cards are not in the opponent’s deck, the penalty is a Game Loss.", "If an incorrect card in the deck or hand becomes visible to an opponent (for example due to it being revealed or put into a graveyard) or is discovered by a judge during a deckcheck, the penalty is a Game Loss. This upgrade still applies if the player calls a judge with an effect on the stack or resolving that might cause the card to become visible.", "If an error resulted in more copies of a main deck card being played than were registered and this was discovered after the game had begun, the penalty is a Game Loss unless all copies of the card are still in the random portion of the library. For example if the decklist has two copies of Shock in the main deck and two in the sideboard, but a search finds two copies of Shock in the library with another already in the graveyard, the penalty is upgraded." ]
+        "text" : [ "If the deck or sideboard is discovered to be missing cards while presented to the opponent for pre-game shuffling, or during a deckcheck, and the missing cards are not in the opponent’s deck, the penalty is a Game Loss.", "If an opponent may have made strategic decisions based on the presence of a sideboard card (such as having seen it in the library during a search effect), the penalty is a Game Loss.", "If an error resulted in more copies of a main deck card being played than were registered and this was discovered after the game had begun, the penalty is a Game Loss unless all copies of the card are still in the random portion of the library. For example if the decklist has two copies of Shock in the main deck and two in the sideboard, but a search finds two copies of Shock in the library with another already in the graveyard, the penalty is upgraded." ]
       }
     }
   },
@@ -388,7 +392,7 @@
       },
       "philosophy" : {
         "title" : "Philosophy",
-        "text" : [ "Clear communication is essential when playing Magic. Though many offenses will be intentional, it is possible for a player to make a genuine mistake that causes confusion and these should not be penalized harshly. A player may commit this infraction in situations where they have not spoken. A physically ambiguous board state is not automatically a penalty, but judges are encouraged to tell players to fix ambiguous placements before they might become problematic.\n\nMisapplication of a shortcut is usually not a Player Communication Violation, as the default interpretation applies in ambiguous situations and the opponent is able to act on that shortcut. Any deviation from a tournament shortcut requires a clear explanation." ]
+        "text" : [ "Clear communication is essential when playing Magic. Though many offenses will be intentional, it is possible for a player to make a genuine mistake that causes confusion and these should not be penalized harshly.\n\nA player may commit this infraction in situations where they have not spoken. A physically ambiguous board state is not automatically a penalty, but judges are encouraged to tell players to fix ambiguous placements before they might become problematic.\n\nMisapplication of a shortcut is usually not a Communication Policy Violation, as the default interpretation applies in ambiguous situations and the opponent is able to act on that shortcut. Any deviation from a tournament shortcut requires a clear explanation." ]
       },
       "additional-remedy" : {
         "title" : "Additional Remedy",
@@ -405,7 +409,7 @@
     "subsectionContents" : {
       "definition" : {
         "title" : "Definition",
-        "text" : [ "Cards or sleeves in a player’s deck have inconsistencies on them that might allow them to be differentiated from each other while in the library. This includes scuff marks, nail marks, discoloration, bent corners and curving from foils." ]
+        "text" : [ "Cards or sleeves in a player’s deck have inconsistencies on them that might allow them to be differentiated from each other while in the library. This includes scuff marks, nail marks, discoloration, bent corners, and curving from foils." ]
       },
       "examples" : {
         "title" : "Examples",
@@ -626,7 +630,7 @@
       },
       "examples" : {
         "title" : "Examples",
-        "text" : [ "A. A player alters the results on a match slip without their opponent’s knowledge.\n\nB. A player lies to a tournament official about what happened in a game to make their case stronger.\n\nC. A player allows their opponent to put a creature into the graveyard even though the creature has not been dealt lethal damage.\n\nD. A player notices that their opponent resolved only half of the triggered ability of Sword of Feast and Famine and decides not to call attention to the error.\n\nE. A player peeks at another player’s picks during the draft.\n\nF. A player adds cards to their Sealed Deck pool.\n\nG. A player realizes they have accidentally drawn an extra card, then fails to call a judge in order to avoid a penalty. Infraction Penalty Game Play Errors Missed Trigger None Looking at Extra Cards Warning Hidden Card Error Warning Game Rule Violation Warning Tournament Errors Tardiness Game Loss Outside Assistance Match Loss Slow Play Warning Decklist Problem Game Loss Deck Problem Warning Marked Cards Warning Insufficient Shuffling Warning Unsporting Conduct Bribery and Wagering Match Loss Aggressive Behavior Disqualification Stalling Disqualification Cheating Disqualification All trademarks are property of Wizards of the Coast LLC in the U.S.A. and other countries. ©2019 Wizards." ]
+        "text" : [ "A. A player alters the results on a match slip without their opponent’s knowledge.\n\nB. A player lies to a tournament official about what happened in a game to make their case stronger.\n\nC. A player allows their opponent to put a creature into the graveyard even though the creature has not been dealt lethal damage.\n\nD. A player notices that their opponent resolved only half of the triggered ability of Sword of Feast and Famine and decides not to call attention to the error.\n\nE. A player peeks at another player’s picks during the draft.\n\nF. A player adds cards to their Sealed Deck pool.\n\nG. A player realizes they have accidentally drawn an extra card, then fails to call a judge in order to avoid a penalty. Infraction Penalty Game Play Errors Missed Trigger None Looking at Extra Cards Warning Hidden Card Error Warning Game Rule Violation Warning Tournament Errors Tardiness Game Loss Outside Assistance Match Loss Slow Play Warning Decklist Problem Game Loss Deck Problem Warning Marked Cards Warning Insufficient Shuffling Warning Unsporting Conduct Bribery and Wagering Match Loss Aggressive Behavior Disqualification Stalling Disqualification Cheating Disqualification presence of the card. All trademarks are property of Wizards of the Coast LLC in the U.S.A. and other countries. ©2019 Wizards." ]
       }
     }
   }
